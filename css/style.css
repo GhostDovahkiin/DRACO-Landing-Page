@@ -1,0 +1,127 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+
+#logo-container{
+  font-family: "Playlist Script";
+}
+
+.right-header{
+  font-family: 'Product Sans';
+  font-weight: bold;
+}
+
+.white{
+  background: #7228FF;
+  background: -webkit-linear-gradient(to right, #7228FF, #E51CFF);
+  background: linear-gradient(to right, #7228FF, #E51CFF);
+}
+
+
+nav ul a,
+nav .brand-logo {
+  color: white;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #26a69a;
+}
+
+.container h1{
+  font-family: 'Product Sans';
+  font-weight: bold;
+}
+#download-button{
+  font-family: 'Product Sans';
+  font-weight: bolder;
+  color: #7228FF;
+}
+.container h5{
+  font-family: 'Product Sans';
+}
+
+.center-text {
+  color: white;
+  background-color: #7228FF;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+  
+  .parallax{
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto
+  }
+
+.row p{
+  font-family: 'Product Sans';
+  font-weight: bold;
+}
+
+.rodape{
+  background: #7228FF;
+  background: -webkit-linear-gradient(to right, #7228FF, #E51CFF);
+  background: linear-gradient(to right, #7228FF, #E51CFF);
+
+}
+
+.rodape li>a{
+  font-family: 'Product Sans';
+  font-weight: bold;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+@font-face {
+  font-family: 'Playlist Script';
+  src: url(/style/fonts/Playlist\ Script.otf);
+}
+
+@font-face{
+  font-family: 'Product Sans';
+  src: url(/style/fonts/Product\ Sans\ Regular.ttf);
+  src: url(/style/fonts/Product\ Sans\ Bold.ttf), url(/style/fonts/Product\ Sans\ Bold\ Italic.ttf), 
+  url(/style/fonts/Product\ Sans\ Italic.ttf);
+}
